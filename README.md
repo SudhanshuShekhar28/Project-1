@@ -53,3 +53,32 @@ DeepLensX is a Streamlit app that integrates MobileNetV2 and a CIFAR-10 model fo
 ### Acknowledgements
   - Streamlit
   - TensorFlow
+
+### Handle Error By Followed
+Solution 1: Upgrade Protobuf
+-->  pip install protobuf==3.20.*
+
+Solution 2: Upgrade Flatbuffers
+-->  pip install flatbuffers==24.3.25
+
+Solution 3: Upgrade Keras
+--> pip install keras==3.5.0
+
+Solution 4: Upgrade TensorBoard
+--> pip install tensorboard==2.18.0
+
+Solution 5: Use a Virtual Environment
+1.Create a Virtual Environment:
+--> python -m venv myenv
+
+2.Activate the Virtual Environment:
+--> myenv\Scripts\activate #on Window
+--> source myenv/bin/activate  #on mac
+
+3. Install Required Packages:
+--> pip install streamlit tensorflow-intel protobuf flatbuffers keras tensorboard
+--> pip install streamlit tensorflow pillow numpy
+
+
+Solution 6: Check for Compatibility
+--> pip check
